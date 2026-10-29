@@ -1,0 +1,21 @@
+
+# API keys and secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+
+# Java / Spring Boot
+backend/target/
+*.class
+
+# React / Node
+frontend/node_modules/
+frontend/dist/
+
+# IntelliJ
+.idea/
+*.iml/
+
+# Logs
+*.log
